@@ -1,0 +1,23 @@
+/* HEADER
+-------------------------------------------------- */
+.top h1{
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  
+}
+body{
+  background-image: url("../img/backcover.jpg");
+   background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    color: #2B35B3;
+    font-weight: bold;
+}
+img{
+	height: 100px;
+	width: 140px;
+}
+#pageList{
+  float: right;
+}
