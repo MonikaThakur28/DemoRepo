@@ -8,16 +8,22 @@
 }
 body{
   background-image: url("../img/backcover.jpg");
-   background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: fixed;
-    color: #2B35B3;
-    font-weight: bold;
+  background-repeat: no-repeat;
+  color: black;
+  font-weight: bold;
 }
-img{
-	height: 100px;
+.main img{
+	height: 140px;
 	width: 140px;
 }
 #pageList{
   float: right;
 }
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .primary{
+    padding-left: 200px;
+  }
+ }
